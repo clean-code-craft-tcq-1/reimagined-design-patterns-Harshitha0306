@@ -64,7 +64,7 @@ Example :
 
 ECU engine states for a Drive cycle
 
-_1._Pre-Drive_
+_1.Pre-Drive_
 
 _2.Drive_
 
