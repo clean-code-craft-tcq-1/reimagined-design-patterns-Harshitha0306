@@ -64,7 +64,9 @@ Example :
 
 ECU engine states for a Drive cycle
 1.Pre-Drive
+
 2.Drive
+
 3.Post-Drive
 
 The Software functionality and interfaces execution differ in each drive cycle state, where in _Pre-Drive_ all interfaces are initialised, in _Drive_ the software is executed for calcalulation and in _Post-Drive_ the processed interface values are stored in EEPROM.
@@ -75,5 +77,5 @@ Advantage :
 
 Disadavantage :
 
-- Large amount of code needed for state machine.
+- Lot of code is required depending on how many states a possible object can be and how many state transitions are required.
 
