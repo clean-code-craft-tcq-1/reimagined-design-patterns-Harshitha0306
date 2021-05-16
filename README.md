@@ -63,6 +63,7 @@ The functionality of the software or system changes based on the change of state
 Example :
 
 ECU engine states for a Drive cycle
+
 1.Pre-Drive
 
 2.Drive
@@ -78,4 +79,5 @@ Advantage :
 Disadavantage :
 
 - Lot of code is required depending on how many states a possible object can be and how many state transitions are required.
+
 
