@@ -17,7 +17,7 @@ Adapter design pattern is one of the structural design pattern and its used so t
 
 Example :
 
-When a particluar ECU receives information from other ECUs, type conversion(Ex. metres to Kilometre) of the recieved information would be required before processing the information in the received(reason being Standard units of ECU might differ) .This can be done with the help of adapter function.
+When a particluar ECU receives information from other ECUs, unit conversion(Ex. metres to Kilometre) of the recieved information would be required before processing the information in the received ECU(reason being Standard units of ECU might differ) .This can be done with the help of adapter function.
 
 Advantages :
 
