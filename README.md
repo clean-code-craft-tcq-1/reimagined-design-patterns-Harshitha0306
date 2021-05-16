@@ -68,7 +68,7 @@ _1._Pre-Drive_
 
 _2.Drive_
 
-_3.Post-Drive__
+_3.Post-Drive_
 
 The Software functionality and interfaces execution differ in each drive cycle state, where in _Pre-Drive_ all interfaces are initialised, in _Drive_ the software is executed for calulation and the interfaces are updated with calculated value and in _Post-Drive_ the processed interface values are stored in EEPROM.
 
