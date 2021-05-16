@@ -36,7 +36,6 @@ Disadvantages :
 Summary :
 
 Decorator pattern allows a user to add new functionality to an existing object without altering its structure. This type of design pattern comes under structural pattern as this pattern acts as a wrapper to existing class.
-
 This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
 
 Example :
@@ -53,4 +52,28 @@ Disadvantage :
 - Usage of multiple decorators can make the maintainability difficult.
 - Complex coding.
 
+**STATE**
+
+Summary :
+
+In State pattern a class behavior changes based on its state. This type of design pattern comes under behavior pattern.
+In State pattern, we create objects which represent various states and a context object whose behavior varies as its state object changes.
+The functionality of the software or system changes based on the change of state.
+
+Example :
+
+ECU engine states for a Drive cycle
+1.Pre-Drive
+2.Drive
+3.Post-Drive
+
+The Software functionality and interfaces execution differ in each drive cycle state, where in _Pre-Drive_ all interfaces are initialised, in _Drive_ the software is executed for calcalulation and in _Post-Drive_ the processed interface values are stored in EEPROM.
+
+Advantage :
+
+-  Easier to add states for additional behavior Reduces conditional complexity.
+
+Disadavantage :
+
+- Large amount of code needed for state machine.
 
