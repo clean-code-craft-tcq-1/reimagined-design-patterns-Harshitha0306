@@ -80,4 +80,24 @@ Disadavantage :
 
 - Lot of code is required depending on how many states a possible object can be and how many state transitions are required.
 
+PROTOTYPE
 
+Summary :
+
+Prototype pattern refers to creating duplicate object while keeping performance in mind. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+This pattern involves implementing a prototype interface which tells to create a clone of the current object. This pattern is used when creation of object directly is costly.It allows us to hide the complexity of making new instances from the client.
+
+Example :
+
+Instead of creating  new scheduling order instance or new mathematical operation instance for every new object, we can create a Standard scheduling order class and Library services for common mathematical operations and can be cloned in any object based on the requirement.This saves memory and time of new instance creations.
+
+Advantage :
+
+- Reduce new object creation and hence results in memory optimisation.
+- Cost reduction.
+
+Disadvantage :
+
+- Incomplete or inadequate problem analysis.
+- There may be increase in the complexity of the system.
+- Diffuculty in debugging.
