@@ -64,13 +64,13 @@ Example :
 
 ECU engine states for a Drive cycle
 
-1.Pre-Drive
+_1._Pre-Drive_
 
-2.Drive
+_2.Drive_
 
-3.Post-Drive
+_3.Post-Drive__
 
-The Software functionality and interfaces execution differ in each drive cycle state, where in _Pre-Drive_ all interfaces are initialised, in _Drive_ the software is executed for calcalulation and in _Post-Drive_ the processed interface values are stored in EEPROM.
+The Software functionality and interfaces execution differ in each drive cycle state, where in _Pre-Drive_ all interfaces are initialised, in _Drive_ the software is executed for calulation and the interfaces are updated with calculated value and in _Post-Drive_ the processed interface values are stored in EEPROM.
 
 Advantage :
 
