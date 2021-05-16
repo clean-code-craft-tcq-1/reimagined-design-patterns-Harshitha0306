@@ -29,3 +29,28 @@ Disadvantages :
 
 - There is a slight increase in the code size and complexity
 - Sometimes many adaptations are required along an adapter chain to reach the type which is required.
+
+
+**DECORATOR**
+
+Summary :
+
+Decorator pattern allows a user to add new functionality to an existing object without altering its structure. This type of design pattern comes under structural pattern as this pattern acts as a wrapper to existing class.
+
+This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
+
+Example :
+
+In vehicle, incase of any error from the System modules , driver can be alerted with a warning signal before bringing the vehicle to safe state. Providing warning signal is a customer specific requirement which can be considered as a Decorator for the existing functionality.
+
+Advantage :
+
+- Ability to add more functionality dynamically without altering existing code.
+- User friendly and indepedent.
+
+Disadvantage :
+
+- Usage of multiple decorators can make the maintainability difficult.
+- Complex coding.
+
+
