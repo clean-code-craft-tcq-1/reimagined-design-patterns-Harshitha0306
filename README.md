@@ -80,7 +80,7 @@ Disadavantage :
 
 - Lot of code is required depending on how many states a possible object can be and how many state transitions are required.
 
-PROTOTYPE
+**PROTOTYPE**
 
 Summary :
 
@@ -100,4 +100,4 @@ Disadvantage :
 
 - Incomplete or inadequate problem analysis.
 - There may be increase in the complexity of the system.
-- Diffuculty in debugging.
+- Difficulty in debugging.
