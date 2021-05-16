@@ -21,11 +21,11 @@ When a particluar ECU receives information from other ECUs, type conversion(Ex. 
 
 Advantages :
 
-Helps achieve reusability and flexibility.
-Adaptor class can be modified without modifying existing code.
-Saves validation time.
+• Helps achieve reusability and flexibility.
+• Adaptor class can be modified without modifying existing code.
+• Saves validation time.
 
 Disadvantages :
 
-There is a slight increase in the code size and complexity
-Sometimes many adaptations are required along an adapter chain to reach the type which is required.
+• There is a slight increase in the code size and complexity
+• Sometimes many adaptations are required along an adapter chain to reach the type which is required.
